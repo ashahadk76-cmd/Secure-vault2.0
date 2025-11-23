@@ -3,7 +3,6 @@ import securepass from "@/model/securepass";
 import CryptoJS from "crypto-js";
 import connectDB from "@/db/connectDb";
 
-
 function getidfromreq(req, params) {
     if (params && params.id) {
         return   params.id;
